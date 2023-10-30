@@ -1,0 +1,217 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+:root {
+  --body-bg: #f0f0f0;
+  --body-color: rgb(1, 1, 1);
+  --boty-border:rgb(1, 1, 1) ;
+  --boty-place:#f0f0f0;
+  --boty-1:#f0f0f0;
+  --boty-2:#000000;
+
+
+}
+
+.dark-mode {
+  --body-bg:#0D0D0D;
+  --body-color: rgb(245, 245, 245);
+  --boty-border:rgb(255, 255, 255) ;
+  --boty-place:#020202;
+  --boty-1:#ffffff;
+  --boty-2:#000000;
+
+}
+
+.popup-quote{
+  color: var(--body-color);
+  font-family: Roboto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center; /* Centralizar horizontalmente */
+  align-items: center; /* Centralizar verticalmente */
+  height: 12vh;
+  width: 100%; /* Largura de 100% do contêiner pai */
+  font-size: 0.9rem;
+}
+
+
+#userName {
+  color: var(--body-color);
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.25;
+  display: block;
+  font-family: Roboto;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+#links {
+  max-width: 675px;
+  width: auto;
+  display: block;
+  margin: 27px auto;
+}
+
+.link  {
+  position: relative;
+  background-color: transparent;
+  border: solid 2px;
+  border-color: var(--boty-border);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family:Roboto ;
+  text-align: center;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px; /* 17px */
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.link.github {
+  color:var(--body-color);
+  background-color: var(--boty-place); 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.link.linkedin {
+  color: var(--body-color);
+  background-color:var(--boty-place); /* Cor de fundo para o link do LinkedIn */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona a animação de transição */
+}
+
+.link.twitter {
+  color: var(--body-color);
+  background-color:var(--boty-place); /* Cor de fundo para o link do Twitter */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona a animação de transição */
+}
+
+.link.instagram {
+  color:var(--body-color);
+  background-color: var(--boty-place); /* Cor de fundo para o link do Instagram */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona a animação de transição */
+}
+
+.link.discord {
+  color: var(--body-color);
+  background-color: var(--boty-place); /* Cor de fundo para o link do Discord */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona a animação de transição */
+}
+.confirmation-message {
+  font-size: 1rem;
+  font-family:Roboto ;
+}
+
+.link.spotify {
+  color: var(--body-color);
+  background-color: var(--boty-place); /* Cor de fundo para o link do Spotify */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona a animação de transição */
+}
+.link.E-mail {
+  color:var(--body-color);
+  background-color: var(--boty-place); /* Cor de fundo para o link do Spotify */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona a animação de transição */
+}
+.link.Twitch {
+  color: var(--body-color);
+  background-color: var(--boty-place); /* Cor de fundo para o link do Spotify */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona a animação de transição */
+}
+
+.link.github:hover {
+  background-color:var(--body-color); /* Cor de fundo azul para o link do GitHub ao passar o mouse */
+  color: var(--boty-place); /* Cor do texto ao passar o mouse */
+}
+
+.link.linkedin:hover {
+  background-color: #0077B5; /* Cor de fundo azul para o link do LinkedIn ao passar o mouse */
+  color: var(--body-color); /* Cor do texto ao passar o mouse */
+}
+
+.link.twitter:hover {
+  background-color:var(--body-color); /* Cor de fundo azul para o link do Twitter ao passar o mouse */
+  color: var(--boty-place); /* Cor do texto ao passar o mouse */
+}
+
+.link.instagram:hover {
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); /* Cor de fundo vermelha para o link do Instagram ao passar o mouse */
+  color: var(--body-color); /* Cor do texto ao passar o mouse */
+}
+
+.link.discord:hover {
+  background-color: #7289DA; /* Cor de fundo azul para o link do Discord ao passar o mouse */
+  color: var(--body-color); /* Cor do texto ao passar o mouse */
+}
+
+.link.spotify:hover {
+  background-color: #1DB954; /* Cor de fundo verde para o link do Spotify ao passar o mouse */
+  color:var(--body-color);
+}
+.link.E-mail:hover {
+  background: linear-gradient(to right,
+    #4285F4 0%, #4285F4 25%,
+    #DB4437 25%, #DB4437 50%,
+    #F4B400 50%, #F4B400 75%,
+    #0F9D58 75%, #0F9D58 100%
+  );
+  color: var(--body-color); /* Cor do texto ao passar o mouse */
+}
+.link.Twitch:hover {
+  background-color: #9900ff; /* Cor de fundo azul para o link do GitHub ao passar o mouse */
+  color:var(--body-color); /* Cor do texto ao passar o mouse */
+}
+
+#hashtag {
+  position: relative;
+  padding-bottom: 20px;
+  color: #9400ff;
+  font-size: 1rem;
+  display: block;
+  font-family: Roboto;
+  width: 100%;
+  text-align: center;
+
+  /*  animation   */
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    #000000,
+    rgb(255, 255, 255)
+  );
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear 0.3s infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes transitionAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}

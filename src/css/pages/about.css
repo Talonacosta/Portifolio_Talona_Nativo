@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+:root {
+    --body-bg: #f0f0f0;
+    --body-color: rgb(0, 0, 0);
+    --border: rgba(237, 237, 237, 0.345);
+}
+
+.dark-mode {
+    --body-bg: #0d0d0d;
+    --body-color: rgb(245, 245, 245);
+    --border: rgba(85, 85, 85, 0.043);
+}
+
+.group-inner,
+.home,
+.rectangle-group {
+    position: absolute;
+    width: 6.25rem;
+    height: 2.94rem;
+}
+.home {
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rectangle-group {
+    top: 2rem;
+    left: 78.31rem;
+    font-size: 24px;
+}
+.desktop-12-child {
+    position: absolute;
+    top: 10.38rem;
+    left: 3.75rem;
+    background-color: var(--body-bg);
+    width: 82.81rem;
+    height: 33.75rem;
+}
+.anos-9-meses {
+    position: absolute;
+    top: 23rem;
+    left: 30.88rem;
+    font-size: 24px;
+    color: #a4a4a4;
+}
+.span {
+    font-size: 24px;
+}
+.tales-costa {
+    position: absolute;
+    top: 19.5rem;
+    left: 30.69rem;
+    color: var(--body-color);
+    font-size: 24px;
+}
+.ellipse-div {
+    position: absolute;
+    top: -0.5rem;
+    left: -0.5rem;
+    border-radius: 50%;
+    background-color: #414141;
+    border: 8px solid blueviolet;
+    box-sizing: border-box;
+    width: 15.81rem;
+    height: 15.81rem;
+}
+.ellipse-parent,
+.foto {
+    position: absolute;
+    top: 6.13rem;
+    left: 6.06rem;
+}
+.ellipse-parent {
+    top: 19.75rem;
+    left: 9.56rem;
+    width: 14.81rem;
+    height: 14.81rem;
+    color: var(--body-color);
+}
+.brazil {
+    color: #ffc700;
+}
+.front-end-developer-from-container,
+.sou-um-experiente {
+    position: absolute;
+    top: 24.81rem;
+    left: 31.38rem;
+    color: blueviolet;
+}
+.sou-um-experiente {
+    top: 29.5rem;
+    color: var(--body-color);
+    text-align: left;
+    display: inline-block;
+    width: 48.69rem;
+    height: 11rem;
+}
+.desktop-12 {
+    position: relative;
+    background-color: gray;
+    width: 100%;
+    height: 48rem;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    color: blueviolet;
+    font-family: roboto;
+}
