@@ -1,0 +1,34 @@
+.carousel-container {
+  width: 100%; /* A largura da tela inteira */
+  height: auto; /* A altura será ajustada automaticamente com base no conteúdo */
+  overflow: hidden; /* Para esconder o conteúdo fora do contêiner */
+  display: flex;
+  flex-wrap: wrap; /* Permite que os slides quebrem para a próxima linha */
+  justify-content: space-around; /* Espaço uniformemente distribuído horizontalmente */
+  align-content: space-around; /* Espaço uniformemente distribuído verticalmente */
+  padding: 40px;
+}
+
+.carousel {
+  display: flex;
+  animation: carousel-animation 30s linear infinite;
+  margin: 0;
+  flex-wrap: wrap; /* Permite que os slides quebrem para a próxima linha */
+}
+
+.slide {
+  width: calc(33.33% - 10px); /* Cada slide ocupa 33.33% da largura com um espaço de 10px entre eles */
+  height: auto; /* Altura ajustável com base no conteúdo */
+  margin: 5px; /* Espaço de 5px entre os slides */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slide img {
+  max-width: 100%; /* A imagem dentro do slide se ajustará à largura do slide */
+  height: auto;
+}
+
+@keyframes carousel-animation {
+  /* Sua animação do carrossel aqui */
+}

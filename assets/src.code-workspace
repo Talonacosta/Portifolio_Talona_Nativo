@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../src"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../content"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "content"
+	}
+}
