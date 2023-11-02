@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
 :root {
   --body-bg: #f0f0f0;
@@ -172,4 +173,180 @@ line-height: normal;
 
 .bottonc:focus-visible {
   box-shadow: none;
+=======
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+:root {
+  --body-bg: #f0f0f0;
+  --body-color: rgb(0, 0, 0);
+  --boty-1:#f0f0f0;
+  --boty-2:#000000;
+  --bac-b:#ffffff;
+  --box-shadow: rgba(0, 0, 0, 0.176);
+--border:rgba(0, 0, 0, 0.103);
+--p-color:#5f5f5f;
+
+}
+
+.dark-mode {
+  --body-bg:#0D0D0D;
+  --body-color: rgb(245, 245, 245);
+  --boty-1:#ffffff;
+  --boty-2:#000000;
+  --bac-b:#000000;
+--box-shadow: rgb(34, 34, 34);
+--border:rgba(251, 251, 251, 0.043);
+--p-color:#A0A0A0;
+}
+
+
+
+body {
+  overflow: hidden;
+}
+
+.boty-flor {
+  position: fixed;
+  display: flex;
+  width: 540px;
+  height: 454px;
+  opacity: 0.2;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  bottom: -80px; 
+  right: -80px;
+  
+}
+
+.conteudo {
+  padding: 6rem;
+  margin: 0 auto;
+  
+
+}
+
+.conteudo h1 {
+  width: 561px;
+  height: 74px;
+  flex-shrink: 0;
+  margin-left: -12px;
+}
+
+.Talona {
+  color: var( --body-color);
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Costa {
+  color: var( --body-color);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.ponto {
+  color: var( --body-color);
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.HTML {
+  color: #f2672e;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.CSS {
+  color: #30aadd;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.JS {
+  color: #f2bf26;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.conteudo h2 {
+  color: #9400ff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: -12px;
+  margin-bottom: -20px;
+}
+
+.conteudo h3 {
+  color:var( --body-color);
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 772px;
+}
+
+.conteudo p {
+  color:var(--p-color);
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 230px;
+}
+
+
+
+.bottonc {
+  background-color: transparent;
+  color:blueviolet;
+  border: solid blueviolet 2px;
+  border-radius: 10px;
+  color: #9400FF;
+
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  display: block;
+  margin-left: 1px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  padding: 17px; 
+  text-decoration: none;
+  max-width: 220px;
+}
+.bottonc:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.bottonc:focus-visible {
+  box-shadow: none;
+>>>>>>> 136b70839c21b6203dd24554f0f6990a524d24e8
 }

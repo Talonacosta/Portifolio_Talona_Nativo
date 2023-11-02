@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 :root {
@@ -171,3 +172,178 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+=======
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+:root {
+  
+  --body-color: rgb(1, 1, 1);
+}
+
+.dark-mode {
+  
+  --body-color: rgb(245, 245, 245);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+}
+
+.menu {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+}
+
+.header li {
+  margin-top: 20px;
+  margin-left: 10px; 
+  line-height: 1;  
+}
+
+.header li a {
+  color: var(--body-color);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about {
+  color: blueviolet;
+  text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.flowers{
+  color: #9400FF;
+  text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.projects{
+  color: blueviolet;
+  text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.contact{
+  color: #9400FF;
+  text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.header img {
+  width: 51px;
+  height: 47px;
+  flex-shrink: 0;
+  margin-top: 20px;
+}
+
+.Home {
+  background-color: transparent;
+  border: solid blueviolet 2px;
+  border-radius: 10px;
+  color: #9400FF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  display: block;
+  padding: 10px 20px; 
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-39:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-39:focus-visible {
+  box-shadow: none;
+}
+
+.theme-switch-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  margin-right:140px;
+  line-height: 1;
+  
+}
+
+.theme-switch {
+  display: inline-block;
+  width: 60px;
+  height:34px;
+  position: relative;
+  transition: transform 0.4s; /* Adicionamos uma transição de transformação para criar uma animação suave. */
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#0091ff82;
+  cursor: pointer;
+}
+
+.slider:before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-color:#fffb7d;
+  left: 4px;
+  bottom: 4px;
+  transition: transform 0.4s;
+}
+
+
+
+input:checked + .slider {
+  background-color: #2b2b2b;
+ 
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+  background-color: #fff;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+>>>>>>> 136b70839c21b6203dd24554f0f6990a524d24e8

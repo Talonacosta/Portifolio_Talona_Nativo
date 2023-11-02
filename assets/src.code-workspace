@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"folders": [
 		{
@@ -13,4 +14,21 @@
 	"settings": {
 		"liveServer.settings.multiRootWorkspaceName": "content"
 	}
+=======
+{
+	"folders": [
+		{
+			"path": "../src"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../content"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "content"
+	}
+>>>>>>> 136b70839c21b6203dd24554f0f6990a524d24e8
 }
