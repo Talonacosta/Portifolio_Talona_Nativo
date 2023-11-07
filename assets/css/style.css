@@ -28,7 +28,6 @@ body {
   overflow: hidden;
 }
 
-
 .boty-flor {
   position: fixed;
   display: flex;
@@ -69,7 +68,7 @@ body {
 .Costa {
   color: var( --body-color);
   font-family: Poppins;
-  font-size: 40px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -123,15 +122,13 @@ body {
 }
 
 .conteudo h3 {
-  color:var(--body-color);
+  color:var( --body-color);
   font-family: Poppins;
   font-size: 42px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   width: 772px;
-  max-width: 100%; 
-  word-wrap: break-word;
 }
 
 .conteudo p {
@@ -176,4 +173,3 @@ line-height: normal;
 .bottonc:focus-visible {
   box-shadow: none;
 }
-
