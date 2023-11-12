@@ -11,36 +11,11 @@
 
 }
 
-.dark-mode {
-  --body-bg:#0D0D0D;
-  --body-color: rgb(245, 245, 245);
-  --boty-1:#ffffff;
-  --boty-2:#000000;
-  --bac-b:#000000;
---box-shadow: rgb(34, 34, 34);
---border:rgba(251, 251, 251, 0.043);
---p-color:#A0A0A0;
-}
-
-
-
 body {
   overflow: hidden;
 }
 
-.boty-flor {
-  position: fixed;
-  display: flex;
-  width: 540px;
-  height: 454px;
-  opacity: 0.2;
-  justify-content: center;
-  align-items: center;
-  right: 0;
-  bottom: -80px; 
-  right: -80px;
-  
-}
+
 
 .conteudo {
   padding: 6rem;
@@ -172,4 +147,92 @@ line-height: normal;
 
 .bottonc:focus-visible {
   box-shadow: none;
+}
+
+/*bolinhas*/
+.technologies-container {
+  display: flex;
+  justify-content: space-around; /* ou justify-content: space-between; dependendo do espaçamento desejado */
+}
+
+.technology-dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px; /* Espaçamento entre os círculos */
+}
+
+/* Estilo para os círculos */
+.circle {
+  background-color: rgb(94, 15, 151);
+  width: 130px; /* Largura do círculo (ajuste conforme necessário) */
+  height: 130px; /* Altura do círculo (ajuste conforme necessário) */
+  border-radius: 50%; /* Tornar o elemento um círculo */
+  overflow: hidden; /* Garante que o ícone SVG não ultrapasse os limites do círculo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out; /* Efeito de transição suave */
+}
+
+/* Estilo para os ícones SVG */
+.technology-dot svg {
+  width: 50px; /* Largura do ícone SVG (ajuste conforme necessário) */
+  height: 50px; /* Altura do ícone SVG (ajuste conforme necessário) */
+  fill: rgb(255, 255, 255); /* Cor do ícone SVG */
+}
+
+/* Estilo quando o mouse passa por cima do círculo (ajustado conforme necessário) */
+.technology-dot:hover .circle {
+  transform: scale(1.2); /* Aumentar o tamanho do círculo ao passar o mouse */
+}
+
+
+
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+ 
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.github-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: rgb(149, 36, 198);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.github-btn:hover {
+  background-color: #0366d6;
+}
+
+
+.boty-flor {
+  position: fixed;
+  display: flex;
+  width: 540px;
+  height: 454px;
+  opacity: 0.2;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  bottom: -80px; 
+  right: -80px;
+  z-index: -1;
 }
